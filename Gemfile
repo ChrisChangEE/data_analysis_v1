@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3',group: :development
+
+gem 'pg'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -28,6 +31,8 @@ gem 'spring'
         
 gem 'carrierwave', '~> 0.9'
 gem 'bootstrap-sass', '~> 2.3.2'
+
+gem 'mini_magick'
 
 group :development, :test do
 # Use ActiveModel has_secure_password
