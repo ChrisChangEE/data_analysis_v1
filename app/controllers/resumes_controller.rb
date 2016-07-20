@@ -29,11 +29,6 @@ class ResumesController < ApplicationController
 
   end
 
-  # def download
-  #   path = "/#{resume.resume}"
-  #   send_file path, :x_sendfile=>true
-  # end
-
   def destroy
     @resume = Resume.find(params[:id])
     @resume.destroy
